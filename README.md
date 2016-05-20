@@ -1,6 +1,6 @@
 # hubot-credit-card-number-generator
 
-Generates credit card numbers for testing purposes
+A hubot script that uses [creditcard-generator](https://github.com/VRMink/credit-card-generator) to generate test credit card numbers that pass the Luhn check.
 
 See [`src/credit-card-number-generator.coffee`](src/credit-card-number-generator.coffee) for full documentation.
 
@@ -18,9 +18,33 @@ Then add **hubot-credit-card-number-generator** to your `external-scripts.json`:
 ]
 ```
 
+## Usage
+
+```
+hubot ccnum [cctype] [num] - responds with test credit card numbers. cctype is one of: a|m|v|j|e|vo|dn|ds . Optionally, specify a number and it will return n card numbers.
+```
+
+|cctype|Description|
+|-------|-----------|
+| a  | American Express|
+| dn | Diners Card |
+| ds | Discover Card |
+| e  | enRoute Card |
+| j  | JCB Card |
+| m  | Master Card |
+| v  | Visa Card |
+| vo | Voyager Card |
+
 ## Sample Interaction
 
 ```
-user1>> hubot hello
-hubot>> hello!
+user1>> hubot ccnum v 4
+hubot>> 4072032880843113
+4485046733373962
+4916610646721325
+4916721612089579
 ```
+
+## License
+
+GNU GPL [https://gnu.org/licenses/gpl.html](https://gnu.org/licenses/gpl.html)
