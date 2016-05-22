@@ -1,7 +1,7 @@
 {
   "name": "hubot-credit-card-number-generator",
   "description": "Generates credit card numbers for testing purposes",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "author": "Monica Granbois <mgranbois@outlook.com>",
   "license": "MIT",
   "keywords": "hubot, hubot-scripts, credit-card, ccnum",
