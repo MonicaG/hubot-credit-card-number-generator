@@ -50,3 +50,8 @@ hubot>> 4072032880843113
 ## License
 
 GNU GPL [https://gnu.org/licenses/gpl.html](https://gnu.org/licenses/gpl.html)
+
+## Contributing
+
+Pull requests are welcome! Please see the [CONTRIBUTING file](CONTRIBUTING.md) for details.
+ 
