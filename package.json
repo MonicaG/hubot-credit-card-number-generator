@@ -25,7 +25,6 @@
     "grunt-cli": "1.x",
     "grunt-contrib-watch": "1.x",
     "grunt-mocha-test": "0.x",
-    "grunt-release": "0.x",
     "hubot": "^3.1.1",
     "hubot-test-helper": "^1.9.0",
     "matchdep": "2.x",
