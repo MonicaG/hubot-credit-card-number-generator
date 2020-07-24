@@ -21,7 +21,7 @@
   "devDependencies": {
     "chai": "4.x",
     "co": "^4.6.0",
-    "grunt": "^1.1.0",
+    "grunt": "^1.2.1",
     "grunt-cli": "1.x",
     "grunt-contrib-watch": "1.x",
     "grunt-mocha-test": "0.x",
