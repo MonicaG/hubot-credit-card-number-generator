@@ -5,7 +5,7 @@ name: Package hubot-credit-card-number-generator
 
 on:
   release:
-    types: [created]
+    types: [published]
 
 jobs:
   build:
