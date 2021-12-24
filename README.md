@@ -1,6 +1,6 @@
 # hubot-credit-card-number-generator
 
-[![Build Status](https://travis-ci.org/MonicaG/hubot-credit-card-number-generator.svg?branch=master)](https://travis-ci.org/MonicaG/hubot-credit-card-number-generator)
+[![Build Status](https://github.com/MonicaG/hubot-credit-card-number-generator/actions/workflows/test.yml/badge.svg)](https://github.com/MonicaG/hubot-credit-card-number-generator/actions/workflows/test.yml)
 
 A hubot script that uses [creditcard-generator](https://github.com/VRMink/credit-card-generator) to generate test credit card numbers that pass the Luhn check.
 
